@@ -8,7 +8,9 @@ $(document).ready(function(){
 });
 
 function getIt(){
-  alert("");
+  $('p').on("load", function(){
+    alert("Hey!")
+  })
   return;
 }
 
@@ -22,7 +24,7 @@ function pressIt(){
   return;
 }
 
-function (){
+function submitIt(){
   alert("");
   return;
 }

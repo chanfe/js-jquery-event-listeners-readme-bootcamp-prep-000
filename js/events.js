@@ -15,8 +15,8 @@ function getIt(){
 }
 
 function frameIt(){
-  $('#tasty').on("load", function(){
-    $('#tasty').style.borderColor = "red";
+  $('.tasty').on("load", function(){
+    $('.tasty').style.borderColor = "red";
   })
   return;
 }

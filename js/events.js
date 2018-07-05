@@ -15,7 +15,9 @@ function getIt(){
 }
 
 function frameIt(){
-  alert("");
+  $('.tasty').on("load", function(){
+    
+  })
   return;
 }
 

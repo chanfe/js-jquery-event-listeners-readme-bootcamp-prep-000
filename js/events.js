@@ -8,7 +8,7 @@ $(document).ready(function(){
 });
 
 function getIt(){
-  $('p').on("load", function(){
+  $('p').on("click", function(){
     alert("Hey!")
   })
   return;

@@ -12,7 +12,7 @@ function getIt(){
   return;
 }
 
-function (){
+function frameIt(){
   alert("");
   return;
 }

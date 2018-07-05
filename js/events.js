@@ -16,7 +16,7 @@ function getIt(){
 
 function frameIt(){
   $('.tasty').on("load", function(){
-    $('.tasty').re
+    $('.tasty').style.borderColor = "red";
   })
   return;
 }

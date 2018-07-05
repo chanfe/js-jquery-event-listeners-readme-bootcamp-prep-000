@@ -31,7 +31,9 @@ function pressIt(){
 }
 
 function submitIt(){
-  alert("");
+  $('form').on("submit", function(){
+    alert("")
+  })
   return;
 }
 

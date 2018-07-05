@@ -17,7 +17,7 @@ function frameIt(){
   return;
 }
 
-function (){
+function pressIt(){
   alert("");
   return;
 }
